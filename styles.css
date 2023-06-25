@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    max-width: 375px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid grey;
+    
+}
+
+.logo{
+    width: 127px;
+}
+
+.avatar, .profile-pic {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+
+.poster-details{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: flex-start;
+    align-items: center;
+    margin:0;
+}
+
+.details{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    margin-bottom:0;
+    
+
+}
+
+.username, .location{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+    display:block;
+
+}
+
+.post{
+    width: 375px;
+}
+
+
+.icon{
+    width: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.post-details{
+    padding-left: 10px;
+}
+
+.username, .likes{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.username, .caption{
+    display: inline-block;
+}
+
+.caption{
+    font-size: 13px;
+    font-weight:400;
+}
